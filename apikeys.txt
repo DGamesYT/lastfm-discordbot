@@ -1,4 +1,0 @@
-lastfm=PLACEHOLDER
-maindiscord=PLACEHOLDER
-testdiscord=PLACEHOLDER
-genius=PLACEHOLDER
