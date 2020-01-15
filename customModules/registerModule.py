@@ -2,6 +2,9 @@ def register(newEntry):
     newuserlist = []
     newuserlist.append(newEntry)                              #writes [userid:username] to new array
 
+    file = open("register.txt","w") #creates file if doesnt exist
+    file.close()
+
     file = open("register.txt","r")
     userlist = file.readlines()
     file.close()                      #reads file
