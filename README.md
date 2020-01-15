@@ -4,7 +4,7 @@ discord bot for music data/statistics
 
 dependencies:  
 "discord.py"  
-"Pillow"
+"Pillow"  
 "lyricsgenius" 
 "apikeys.txt" # in master directory
 
