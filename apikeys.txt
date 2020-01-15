@@ -1,0 +1,4 @@
+lastfm=LAST_FM_API_KEY
+maindiscord=DISCORD_API_KEY
+testdiscord=BACKUP_DISCORD_API_KEY
+genius=GENIUS_API_KEY
