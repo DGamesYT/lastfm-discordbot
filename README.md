@@ -10,7 +10,8 @@ dependencies:
 
 
 apikeys.txt is formatted as such:  
-```lastfm=KEY_HERE
+```
+lastfm=KEY_HERE
 maindiscord=KEY_HERE
 testdiscord=KEY_HERE
 genius=KEY_HERE
