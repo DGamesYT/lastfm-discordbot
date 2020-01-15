@@ -1,5 +1,5 @@
 # lastfm-discordbot
-discord.py bot for music data/statistics  
+discord bot for music data/statistics  
 
 
 dependencies:  
