@@ -38,7 +38,11 @@ async def on_message(message):
 	
     if usermessage.startswith("$help"):
         helpMessage = helpModule.help(usermessage)
-        title, description, colour = helpMessage.title, helpMessage.description, helpMessage.colour
+        try:
+            title, description, colour = helpMessage.title, helpMessage.description, helpMessage.colour
+        except:
+            return
+            
         embed = discord.Embed(title=title,description=description,color=colour)
         embed.set_author(name=discordname, icon_url=avatar)
         await message.channel.send(embed=embed)
