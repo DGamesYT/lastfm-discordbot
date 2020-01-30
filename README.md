@@ -1,12 +1,12 @@
 # lastfm-discordbot
-discord.py bot for music data/statistics  
+discord bot for music data/statistics  
 
 
 dependencies:  
-"discord.py"  
-"Pillow"
-"lyricsgenius" 
-"apikeys.txt" # in master directory
+"discord.py" #python module  
+"Pillow" #python module  
+"lyricsgenius" #python module  
+"apikeys.txt" #in master directory
 
 
 apikeys.txt is formatted as such:  
