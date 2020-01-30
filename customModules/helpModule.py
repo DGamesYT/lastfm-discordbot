@@ -138,6 +138,6 @@ def help(usermessage):
             helpMessage = createHelpMessage("$lyrics artist song","sample responses: `will return lyrics in a single embed, or multiple if lyrics are too long.`",1)
 
     else:
-        helpMessage = createHelpMessage("available commands:","$collage\n$timeplayed\n$scrobbles\n$favsong\n$artistpos\n$topalbums\n$toptracks\n$lyrics\n$register",1)
+        helpMessage = createHelpMessage("music commands:","$collage\n$timeplayed\n$scrobbles\n$favsong\n$artistpos\n$topalbums\n$toptracks\n$lyrics\n$register",1)
 
     return helpMessage
