@@ -395,4 +395,4 @@ async def on_message(message):
     elif "<@!617383576916197386>" in message.content: # Bot name mentioned
         await message.channel.send("<:poopy:590926727900037153>")
 
-client.run(testDiscordKey)
+client.run("NzI0ODU5MjIxMDA2NjE0NTc5.XvGTzg.P71VRR8sCrdxKuxlqlhy7KjhbVk")
